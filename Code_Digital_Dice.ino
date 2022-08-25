@@ -69,7 +69,7 @@ digitalWrite(led7,HIGH);
 delay(2000);
 }
 }
-    //If the button is not pressed, sets off the leds
+//If the button is not pressed, sets off the leds
 digitalWrite (led1, LOW);
 digitalWrite (led2, LOW);
 digitalWrite (led3, LOW);
