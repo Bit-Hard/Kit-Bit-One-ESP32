@@ -25,7 +25,7 @@ randomSeed(analogRead(0)); //This code line is necessary for a correct random
 }
 
 void loop(){
-
+//Read the status of the button
 buttonstate = digitalRead(button);
 if(buttonstate == HIGH){
 num = random(1,7); // Generates random number from 1 to 6.
@@ -69,6 +69,7 @@ digitalWrite(led7,HIGH);
 delay(2000);
 }
 }
+    //If the button is not pressed, sets off the leds
 digitalWrite (led1, LOW);
 digitalWrite (led2, LOW);
 digitalWrite (led3, LOW);
