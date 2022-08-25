@@ -20,7 +20,7 @@ pinMode(led5, OUTPUT);
 pinMode(led6, OUTPUT);
 pinMode(led7, OUTPUT);
 pinMode(button,INPUT);
-randomSeed(analogRead(0)); 
+randomSeed(analogRead(0)); //This code line is necessary for a correct random
 
 }
 
